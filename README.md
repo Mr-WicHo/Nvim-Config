@@ -11,4 +11,7 @@ ripgrp: https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation
 Nerd Fonts: https://www.nerdfonts.com/font-downloads
 Git: https://git-scm.com/download/win
 
+LSP:
+CCLS Download Tuto: https://snapcraft.io/install/ccls/ubuntu
+
 at the moment this is all that i remember that you need for this to work, if i remember more ill be adding it.
