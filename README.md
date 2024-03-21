@@ -12,6 +12,6 @@ Nerd Fonts: https://www.nerdfonts.com/font-downloads
 Git: https://git-scm.com/download/win
 
 LSP:
-CCLS Download Tuto: https://snapcraft.io/install/ccls/ubuntu
+c++  == Clangd  --- from mason.nvim
 
 at the moment this is all that i remember that you need for this to work, if i remember more ill be adding it.
