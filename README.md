@@ -12,6 +12,9 @@ Nerd Fonts: https://www.nerdfonts.com/font-downloads
 Git: https://git-scm.com/download/win
 
 LSP:
+needed:
+golang-go -- sudo apt install golang-go
+"EFT"
 c++  == Clangd  --- from mason.nvim
 
 at the moment this is all that i remember that you need for this to work, if i remember more ill be adding it.
