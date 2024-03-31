@@ -4,6 +4,11 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
 
 Need to change directory name on config --> options.lua --> line 31 (at this point)  where it says opt.undofile change directory to nvim folder
 
+install nvim: https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source
+
+
+
+
 next,
 need to install ripgrep, use choco if in windows, if lunux search how
 
