@@ -36,6 +36,7 @@ at the moment this is all that i remember that you need for this to work, if i r
 
 ## WSL
 #### Install WSL
+How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
 `wsl --install` - In power shell run as admin <br>
 
 
