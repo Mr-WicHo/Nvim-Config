@@ -9,6 +9,7 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
     > which cmake
     > cmake --version
   ```
++ clang - `sudo apt install clang`
 + make  - `sudo apt-get install make`
 + unzip - `sudo apt install unzip`
   - check version - `unzip -v`
@@ -39,5 +40,5 @@ at the moment this is all that i remember that you need for this to work, if i r
 
 
 #### Remove WSL
-`wslconfig /l` - to see the distro that you have <br>`
-wslconfig /u DistroName`  - to uninstall distro - where DistroName is the distro that you what to unistall <br>
+`wslconfig /l` - to see the distro that you have <br>
+`wslconfig /u DistroName`  - to uninstall distro - where DistroName is the distro that you what to unistall <br>
