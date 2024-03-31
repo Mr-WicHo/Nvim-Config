@@ -2,7 +2,10 @@
 Personal configuration of Nvim - - Its Public in case i lost acces to this account  =)
 
 ## Istall Nvim
-install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source).
++ install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source).
++ cmake - `sudo apt install cmake`
++ unzip - `sudo apt install unzip`
+  - check version - `unzip -v`
 
 ## Install Requisites
 [ripgrp](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)<br>
