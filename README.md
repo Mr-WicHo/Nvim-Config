@@ -3,7 +3,13 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
 
 ## Istall Nvim
 + install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source).
-+ cmake - `sudo apt install cmake`
++ cmake -
+  ```  
+    sudo apt install cmake
+    which cmake
+    cmake --version
+  ```
++ make  - `sudo apt-get install make`
 + unzip - `sudo apt install unzip`
   - check version - `unzip -v`
 
