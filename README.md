@@ -12,9 +12,9 @@ install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-f
 next,
 need to install ripgrep, use choco if in windows, if lunux search how.
 
-[ripgrp](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation).
-[Nerd Fonts](https://www.nerdfonts.com/font-downloads).
-[Git](https://git-scm.com/download/win).
+[ripgrp](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)<br>
+[Nerd Fonts](https://www.nerdfonts.com/font-downloads)<br>
+[Git](https://git-scm.com/download/win)<br>
 
 LSP:
 needed:
