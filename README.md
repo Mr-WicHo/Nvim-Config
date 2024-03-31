@@ -22,7 +22,11 @@ at the moment this is all that i remember that you need for this to work, if i r
 
 * Need to change directory name on config --> options.lua --> line 31 (at this point)  where it says opt.undofile change directory to nvim folder.
 
+# WSL
+### Install WSL
+`wsl --install` - In power shell run as admin <br>
 
-## Remove WSL
+
+### Remove WSL
 `wslconfig /l` - to see the distro that you have <br>`
 wslconfig /u DistroName`  - to uninstall distro - where DistroName is the distro that you what to unistall <br>
