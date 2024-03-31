@@ -14,10 +14,9 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
   - check version - `unzip -v`
 
 ## Install Requisites
-[ripgrp](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)<br>
-[Nerd Fonts](https://www.nerdfonts.com/font-downloads)<br>
+[ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)<br>
 [Git](https://git-scm.com/download/win)<br>
-[cmake]()
+[Nerd Fonts](https://www.nerdfonts.com/font-downloads)<br>
 
 ## SetUp LSP
 1. Needed for LSP: <br>
