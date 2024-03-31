@@ -12,7 +12,7 @@ install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-f
 
 # SetUp LSP
 1. Needed for LSP: <br>
-   - Istall 'golang-go' -- sudo apt install golang-go <br>
+   - Istall golang-go -- `sudo apt install golang-go` <br>
 
 2. Needed for the LSP server to work
    - c++  == Clangd  --- from mason.nvim
@@ -24,5 +24,5 @@ at the moment this is all that i remember that you need for this to work, if i r
 
 
 ## Remove WSL
-'wslconfig /l' - to see the distro that you have <br>
-'wslconfig /u DistroName'  - to uninstall distro - where DistroName is the distro that you what to unistall <br>
+`wslconfig /l` - to see the distro that you have <br>`
+wslconfig /u DistroName`  - to uninstall distro - where DistroName is the distro that you what to unistall <br>
