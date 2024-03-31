@@ -30,6 +30,8 @@ at the moment this is all that i remember that you need for this to work, if i r
 
 * Need to change directory name on config --> options.lua --> line 31 (at this point)  where it says opt.undofile change directory to nvim folder.
 
+[How to format README.md](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
+
 ## WSL
 #### Install WSL
 `wsl --install` - In power shell run as admin <br>
