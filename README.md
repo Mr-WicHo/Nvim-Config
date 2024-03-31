@@ -24,9 +24,10 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
 
 2. Needed for the LSP server to work
    - c++  == Clangd  --- from mason.nvim
+  
 
-at the moment this is all that i remember that you need for this to work, if i remember more ill be adding it.
-
+## other
+at the moment this is all that i remember that you need for this to work, if i remember more ill be adding it. <br>
 
 * Need to change directory name on config --> options.lua --> line 31 (at this point)  where it says opt.undofile change directory to nvim folder.
 
