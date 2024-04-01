@@ -49,14 +49,14 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
   - [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 
 ## SetUp nvim folder
-+ download and and move `nvim` folder from this repo to (linux)`~/.config`, so it look something like this `~/.config/nvim`, where `nvim` is the folder that you download
++ download and move `nvim` folder from this repo to (linux)`~/.config`, so it look something like this `~/.config/nvim`, where `nvim` is the folder that you download
 
 ### LSP Servers
 + Mason
   - c++  == Clangd
 
 ## other
-* Need to change directory name on config --> options.lua --> line 31 (at this point)  where it says opt.undofile change directory to nvim folder.
+* Need to change directory name on config `options.lua` line 31 (at this point)  where it says opt.undofile change directory to nvim folder.
 
 [How to format README.md](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
