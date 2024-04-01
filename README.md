@@ -15,7 +15,13 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
     ```
   - clang - `sudo apt install clang`
  
-  Nvim: `git clone https://github.com/neovim/neovim`
+  Nvim:
+    ```
+      git clone https://github.com/neovim/neovim
+      #inside downloaded directory use
+      make CMAKE_BUILD_TYPE=Release
+      sudo make install
+    ```
 
 ## Install Requisites
 [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)<br>
