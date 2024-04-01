@@ -29,7 +29,7 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
 ## configure terminal (linux)
 + install zsh - `sudo apt install zsh` <br>
 + change to zsh shell - `echo $0` --> `chsh` --> `/bin/zsh` --> `echo $0` <br>
-  - reboot 
+  - reboot (close terminal if in linux)
   - chose option (2)
 + install 'oh my zsh' - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
   - if you installed nvim first you will have curl already
