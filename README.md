@@ -3,8 +3,7 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
 
 + im  using the windows subsystem for linux WSL
 + do everything as the order that they appera
-
-+ if you are not me who are seeing this repo, i dont know if this will work for you, 
++ if you are not me who are seeing this repo, i dont know if this will work for you, I dont know how to help =)
 
 ## WSL
 #### Install WSL
@@ -41,7 +40,6 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
   - add `powerlevel10k/powerlevel10k` theme to line `11` on `ZSH_THEME = "theme" `
   - needs [NERD font]((https://www.nerdfonts.com/font-downloads))
 
-
 ## Install Nvim Config Requisites
 + Needs [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation) `sudo apt-get install ripgrep` <br>
 + Needed for LSP:
@@ -50,21 +48,14 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
   - [Git](https://git-scm.com/download/win) `sudo apt install git`
   - [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 
-## instal ncim config
-
-
-## SetUp LSP and nvim config
-+ Needed for LSP:
-   - Istall golang-go -- `sudo apt install golang-go`
+## SetUp nvim folder
 + download and and move `nvim` folder from this repo to (linux)`~/.config`, so it look something like this `~/.config/nvim`, where `nvim` is the folder that you download
 
 ### LSP Servers
 + Mason
   - c++  == Clangd
-  
 
 ## other
-
 * Need to change directory name on config --> options.lua --> line 31 (at this point)  where it says opt.undofile change directory to nvim folder.
 
 [How to format README.md](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
