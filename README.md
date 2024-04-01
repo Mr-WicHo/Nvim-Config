@@ -15,7 +15,7 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
     ```
   - clang - `sudo apt install clang`
  
-  Nvim:
+  - Nvim:
     ```
       git clone https://github.com/neovim/neovim
       #inside downloaded directory use
