@@ -39,6 +39,17 @@ at the moment this is all that i remember that you need for this to work, if i r
 How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
 `wsl --install` - In power shell run as admin <br>
 
+## configure terminal (linux)
++ install and change to `zsh` - `sudo apt install zsh` <br>
++ change to zsh shell - `echo $0` --> `chsh` --> `/bin/zsh` --> `echo $0` <br>
+  - reboot 
+  - chose option (2)
++ install 'oh my zsh' - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+  - needs curl - `sudo apt install curl`
+  - git
++ install theme -powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+  - needs NERD font
+
 
 #### Remove WSL
 `wslconfig /l` - to see the distro that you have <br>
