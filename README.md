@@ -34,11 +34,6 @@ at the moment this is all that i remember that you need for this to work, if i r
 
 [How to format README.md](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
-## WSL
-#### Install WSL
-How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
-`wsl --install` - In power shell run as admin <br>
-
 ## configure terminal (linux)
 + install and change to `zsh` - `sudo apt install zsh` <br>
 + change to zsh shell - `echo $0` --> `chsh` --> `/bin/zsh` --> `echo $0` <br>
@@ -51,7 +46,10 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
   - add `powerlevel10k/powerlevel10k` theme to line `11` on `ZSH_THEME = "theme" `
   - needs NERD font
 
-
+## WSL
+#### Install WSL
+How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
+`wsl --install` - In power shell run as admin <br>
 #### Remove WSL
 `wslconfig /l` - to see the distro that you have <br>
 `wslconfig /u DistroName`  - to uninstall distro - where DistroName is the distro that you what to unistall <br>
