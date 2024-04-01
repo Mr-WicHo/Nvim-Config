@@ -33,18 +33,22 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
   - reboot 
   - chose option (2)
 + install 'oh my zsh' - `sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
-  - needs curl - `sudo apt install curl`
-  - git
+  - if you installed nvim first you will have curl already
+    - needs curl - `sudo apt install curl`
+  - if in you are in WSL or linux you already have git
+    - [git](https://git-scm.com/download/win)
 + install theme -powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
   - add `powerlevel10k/powerlevel10k` theme to line `11` on `ZSH_THEME = "theme" `
-  - needs NERD font
+  - needs [NERD font]((https://www.nerdfonts.com/font-downloads))
 
 
 ## Install Nvim Config Requisites
-[ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation) `sudo apt-get install ripgrep` <br>
++ Needs [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation) `sudo apt-get install ripgrep` <br>
++ Needed for LSP:
+   - Install golang-go -- `sudo apt install golang-go`
 + if not already install, also get
-  - [Git](https://git-scm.com/download/win) `sudo apt install git` <br>
-  - [Nerd Fonts](https://www.nerdfonts.com/font-downloads)<br>
+  - [Git](https://git-scm.com/download/win) `sudo apt install git`
+  - [Nerd Fonts](https://www.nerdfonts.com/font-downloads)
 
 ## instal ncim config
 
