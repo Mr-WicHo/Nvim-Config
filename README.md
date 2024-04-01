@@ -1,7 +1,7 @@
 # Nvim-Config
 Personal configuration of Nvim - - Its Public in case i lost acces to this account  =)
 
-## Istall Nvim
+## Install Nvim
 + install [nvim](https://github.com/neovim/neovim/blob/master/INSTALL.md#install-from-source).
   - requirements (For Ubuntu)
     ```
@@ -16,11 +16,6 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
   - clang - `sudo apt install clang`
  
   Nvim: `git clone https://github.com/neovim/neovim`
-
-
-+ make  - `sudo apt-get install make`
-+ unzip - `sudo apt install unzip`
-  - check version - `unzip -v`
 
 ## Install Requisites
 [ripgrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation)<br>
