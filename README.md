@@ -9,7 +9,7 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
 #### Install WSL
 How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manual)
 `wsl --install` - In power shell run as admin <br>
-#### Remove WSL
+#### If you what to Remove WSL
 `wslconfig /l` - to see the distro that you have <br>
 `wslconfig /u DistroName`  - to uninstall distro - where DistroName is the distro that you what to unistall <br>
 
