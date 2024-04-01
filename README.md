@@ -50,6 +50,7 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
 
 ## SetUp nvim folder
 + download and move `nvim` folder from this repo to (linux)`~/.config`, so it look something like this `~/.config/nvim`, where `nvim` is the folder that you download
+  - if you are not familiar with linux, and are using WSL. you can use `explorer.exe .` to open the fie explorer on the linux directory, 
 
 ### LSP Servers
 + Mason
