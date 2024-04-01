@@ -7,19 +7,10 @@ Personal configuration of Nvim - - Its Public in case i lost acces to this accou
     ```
     sudo apt-get install ninja-build gettext cmake unzip curl build-essential
     ```
-  - cmake -
-    ```  
-      > sudo apt-get -y install cmake
-      > which cmake
-      > cmake --version
-    ```
-  - clang - `sudo apt install clang`
- 
   - Nvim:
     ```
       git clone https://github.com/neovim/neovim
-      #inside downloaded directory use
-      make CMAKE_BUILD_TYPE=Release
+      cd neovim && make CMAKE_BUILD_TYPE=RelWithDebInfo
       sudo make install
     ```
 
