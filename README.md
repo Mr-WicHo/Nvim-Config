@@ -48,6 +48,7 @@ How to install [WSL](https://learn.microsoft.com/en-us/windows/wsl/install-manua
   - needs curl - `sudo apt install curl`
   - git
 + install theme -powerlevel10k `git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k`
+  - add `powerlevel10k/powerlevel10k` theme to line `11` on `ZSH_THEME = "theme" `
   - needs NERD font
 
 
